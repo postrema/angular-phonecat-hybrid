@@ -24,12 +24,19 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/phones",
+              "src/img"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/angular/angular.js",
+              "./node_modules/angular-resource/angular-resource.js",
+              "./node_modules/angular-route/angular-route.js"
+            ]
           },
           "configurations": {
             "production": {
